@@ -1,0 +1,73 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.background {
+        background: seagreen;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin: 5px 0 10px 0;
+        color: azure;
+        text-shadow: 0 0 1px black;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+
+#hero-section {    
+    background-image: url("images/cesme.jpg");
+    background-size: cover;
+    padding: 200px 0 200px 0;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#three-events {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0 20px 0;
+}
+
+.activities-section {
+    margin-top: 0px;
+    padding-top: 10px;
+    background-color: #F1FAEE;
+}
+
+h5 {
+    width: 200px;
+    display: flex;
+    text-align: center;
+}
+
+.card {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    background-color: #457B9D;
+    border-bottom: 5px solid #1D3557;
+    border-radius: 10px;
+}
+
+#avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
